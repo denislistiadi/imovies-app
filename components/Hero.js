@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <div className="text-center bg-white pb-10">
         <div className="w-60 mx-auto">
-            <Image src={"/video.png"} width={800} height={600} layout="responsive" priority />
+            <Image src={"/video.png"} alt="iMovies contact" width={800} height={600} layout="responsive" priority />
         </div>
         <h1 className="text-2xl text-gray-700 uppercase font-bold">Welcome to iMovies</h1>
         <p className="text-gray-500">Produce FILM Feature, TELEVISION and GAME</p>
