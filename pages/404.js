@@ -3,9 +3,9 @@ import { useRouter } from 'next/router'
 import React, { useEffect } from 'react'
 
 const NotFound = () => {
-    
+    const router = useRouter()
+
     useEffect(() => {
-        const router = useRouter()
         const timer = setTimeout(() => {
             router.push('/')
         }, 5000)
