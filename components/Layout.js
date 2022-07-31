@@ -5,12 +5,12 @@ import Navbar from "./Navbar";
 
 const Layout = ({ children }) => {
   return (
-    <>
+    <html lang="en">
       <Meta />
       <Navbar />
       <main>{children}</main>
       <Footer/>
-    </>
+    </html>
   );
 };
 

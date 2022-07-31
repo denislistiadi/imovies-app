@@ -9,7 +9,7 @@ const Hero = () => {
         </div>
         <h1 className="text-2xl text-gray-700 uppercase font-bold">Welcome to iMovies</h1>
         <p className="text-gray-500">Produce FILM Feature, TELEVISION and GAME</p>
-        <Link href="/contact">
+        <Link href="/contact" passHref>
             <button className="bg-gray-700 text-white py-3 px-6 rounded text-sm mt-4">CONTACT US</button>
         </Link>
     </div>
